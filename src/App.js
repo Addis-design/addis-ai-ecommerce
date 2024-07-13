@@ -16,6 +16,7 @@ const App = () => {
     <Router>
       <div className="app">
         <Header />
+        
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -33,6 +34,19 @@ const App = () => {
         <footer className="bg-gray-800 text-white py-4 text-center">
           <p>&copy; 2024 Addis AI and Software Solutions. All rights reserved.</p>
         </footer>
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/665db4669a809f19fb3873ea/1hvf0hcl1';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
       </div>
     </Router>
   );
